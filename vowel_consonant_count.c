@@ -1,16 +1,14 @@
 /*
 Write a C program to count vowels and consonants in a string.
-
-
 */
 
 
 #include <stdio.h>  // Include standard input/output library 
 
 int main() {
-    char str[100];             // Array to store the input string
+    char str[100];  // Array to store the input string
     int vowels = 0, consonants = 0;  // Counters for vowels and consonants
-    int i;                     // Loop index
+    int i; // Loop index
 
     // Ask the user to enter a string
     printf("Enter a string: ");
